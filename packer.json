@@ -27,7 +27,7 @@
       }
     }],
     "provisioners": [{
-      "type": "shell",
+      "type": "shellcc",
       "inline": [
         "sleep 30",
         "sudo apt update -y",
