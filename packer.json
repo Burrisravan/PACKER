@@ -23,7 +23,7 @@
       "vpc_id": "{{user `vpc_id`}}",
       "subnet_id": "{{user `subnet_id`}}",
       "tags": {
-        "Name": "DevOpsClass-B18-Build-{{isotime | clean_resource_name}}"
+        "Name": "DevOpsClass-B18-Build-{{isotime | clean_resource_name}}nabe"
       }
     }],
     "provisioners": [{
